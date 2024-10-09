@@ -1,5 +1,9 @@
+import Dashboard from "./components/dashboard/Dashboard";
 
 const App = () => {
-  return  <h1>React</h1>;
+  return  
+  <>
+  <Dashboard></Dashboard>
+  </>
 };
 export default App;
