@@ -1,4 +1,4 @@
-import { FOLLOWERS } from "../../constants/constants"
+import { FOLLOWERS } from "../../constants/followers"
 import Cards from "../cards/Cards"
 import Mode from "../mode/Mode"
 import Title from "../title/Title"
