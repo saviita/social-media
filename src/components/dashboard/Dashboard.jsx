@@ -13,7 +13,7 @@ const Dashboard = () => {
                 <Mode/>
             </div>
             {FOLLOWERS.map(cardInfo => {
-                    <Cards key={cardInfo.id}
+                    return <Cards key={cardInfo.id}
                     icon={cardInfo.icon}
                     user={cardInfo.name}
                     number={cardInfo.number}
